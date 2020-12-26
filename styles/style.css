@@ -1,0 +1,9 @@
+.scroll-container {
+    scroll-snap-type: mandatory;
+    scroll-snap-points-x: repeat(100vw);
+    scroll-snap-type: x mandatory;
+}
+
+.scroll-container > section {
+    scroll-snap-align: start;
+}
